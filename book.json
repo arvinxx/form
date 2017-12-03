@@ -1,0 +1,5 @@
+{
+    "root": "./docs",
+
+    "plugins": ["-sharing"]
+}

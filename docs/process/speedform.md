@@ -67,3 +67,12 @@
 
  
 
+更多参考资料：
+
+https://www.behance.net/gallery/17274127/Speedform
+
+https://www.behance.net/gallery/28387943/Speedform
+
+https://www.behance.net/gallery/433970/Speedform-Studio
+
+https://www.behance.net/gallery/52044653/Spring-2017-Ringling-GM-Speedform-Sculpting

@@ -1,6 +1,9 @@
 {
     "root": "./docs",
-    "author" : "Arvinx",
-    "language" : "zh-hans"
-
+    "author": "Arvinx",
+    "language": "zh-hans",
+    "plugins": ["disqus"],
+    "theme-default": {
+    "showLevel": true
+}
 }

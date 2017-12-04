@@ -2,8 +2,17 @@
     "root": "./docs",
     "author": "Arvinx",
     "language": "zh-hans",
-    "plugins": ["disqus"],
+    "plugins": ["disqus", "anchor-navigation-ex"],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": true,
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        }
+    },
     "theme-default": {
-    "showLevel": true
-}
+        "showLevel": true
+    }
 }

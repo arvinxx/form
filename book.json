@@ -8,7 +8,11 @@
         "expandable-chapters-small",
         "splitter",
         "-sharing",
-        "sharing-plus"
+        "sharing-plus",
+        "tbfed-pagefooter",
+        "ga",
+        "anchors",
+        "anchor-navigation-ex"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -35,15 +39,35 @@
             "vk": false,
             "weibo": true,
             "whatsapp": false,
-            "all": [
-                "facebook",
-                "google",
-                "twitter",
-                "instapaper",
-                "pocket"
-            ]
+            "all": ["facebook", "google", "twitter", "instapaper", "pocket"]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy ArvinX",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "ga": {
+            "token": "UA-110579858-1"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "isRewritePageTitle": false,
+            "float": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
         }
     },
+
     "theme-default": {
         "showLevel": true
     }

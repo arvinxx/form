@@ -9,8 +9,8 @@
         "splitter",
         "-sharing",
         "sharing-plus",
-        "tbfed-pagefooter",
-        "ga",
+    "local-pagefooter",
+            "ga",
         "anchors",
         "anchor-navigation-ex"
     ],
@@ -41,8 +41,9 @@
             "whatsapp": false,
             "all": ["facebook", "google", "twitter", "instapaper", "pocket"]
         },
-        "tbfed-pagefooter": {
+        "local-pagefooter": {
             "copyright": "Copyright &copy ArvinX",
+            "islocal" : true,
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -67,7 +68,6 @@
             }
         }
     },
-
     "theme-default": {
         "showLevel": true
     }

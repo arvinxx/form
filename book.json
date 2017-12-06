@@ -2,6 +2,8 @@
     "root": "./docs",
     "author": "Arvinx",
     "language": "zh-hans",
+    "styles":{
+        "website":"styles/website.css"},
     "plugins": [
         "disqus",
         "github",
@@ -9,12 +11,15 @@
         "splitter",
         "-sharing",
         "sharing-plus",
-    "local-pagefooter",
-            "ga",
+        "local-pagefooter",
+        "ga",
         "anchors",
         "anchor-navigation-ex"
     ],
     "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
         "disqus": {
             "shortName": "arvinx"
         },
@@ -43,7 +48,7 @@
         },
         "local-pagefooter": {
             "copyright": "Copyright &copy ArvinX",
-            "islocal" : true,
+            "islocal": true,
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -67,8 +72,6 @@
                 "level3Icon": "fa fa-hand-o-right"
             }
         }
-    },
-    "theme-default": {
-        "showLevel": true
     }
+
 }
